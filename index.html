@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do livro perdido </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-          <div>
-             <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-       	 <button> salvador </button>
+          <div class="passo-ativo" id="passo-0">
+            <img scr=""
+
+             <p> Um dia desses, dentro de uma  biblioteca da encantada, descobri uma carta antiga sobre um livro perdido, escondido por riquezas magicas belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar esse livro e eu decidi segui-las!</p>
+       	 
+             <button class="btn-proximo" data-proximo="1">Salvador</button>
+             <button class="btn-proximo" data-proximo="2">Rio de Janeiro</button>
+          </div>
+          <div class="passo" id="passo-1">
+            <p> Em Salvados encontramos mais pistas de Ubatuba, Vá até o Parque Guarara para mais descobertas</p>
+            <button class="btn-proximo" data-proximo="3"> Ubatuba</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+          </div>
+          <div class="passo" id="passo-2">
+            <p> No Rio de Janeiro encontramos alguns enigmas que precisavam serem desvendados para chegar até o próximo passo.</p>
+            <button class="btn-proximo" data-proximo="5">Buscar mais pistas no Pelourinho</button>
+            <button class="btn-proximo" data-proximo="6">Desvendar mistérios no Rio de Janeiro</button>
           </div>
     </main>
         
